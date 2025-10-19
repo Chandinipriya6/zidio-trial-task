@@ -1,10 +1,3 @@
-Perfect 👍 — since your **Resume Builder** project uses **Supabase** (not MongoDB), we’ll update your README to correctly reflect that.
-
-Here’s the corrected and complete version 👇
-
----
-
-````markdown
 # 📄 Resume Builder App — Zidio Trial Task
 
 ## 🚀 Project Overview
@@ -64,7 +57,7 @@ The main goal was to create a **secure and flexible platform** that:
    ```bash
    git clone https://github.com/Chandinipriya6/zidio-trial-task.git
    cd zidio-trial-task
-````
+
 
 2. **Install dependencies**
 
