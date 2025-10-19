@@ -66,18 +66,7 @@ The main goal was to create a **secure and flexible platform** that:
    cd ../frontend && npm install
    ```
 
-3. **Create a `.env` file** in the backend directory:
-
-   ```bash
-   SUPABASE_URL=your_supabase_project_url
-   SUPABASE_ANON_KEY=your_supabase_anon_key
-   SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
-   GEMINI_API_KEY=your_gemini_api_key
-   BACKEND_URL=http://localhost:5000
-   SUPABASE_TEMPLATE_URL=https://your-supabase-template-bucket-url/
-   ```
-
-4. **Run the app**
+3. **Run the app**
 
    ```bash
    # Start backend
@@ -89,7 +78,7 @@ The main goal was to create a **secure and flexible platform** that:
    npm start
    ```
 
-5. **Access the app**
+4. **Access the app**
    Open your browser and go to:
 
    ```
@@ -143,21 +132,7 @@ This project was developed as part of the **Zidio Development Trial Task** to de
 ## 👩‍💻 Author
 
 **Pasagada Chandini Priya**
-📧 [Your Email Address]
+📧 [chandinipriya643@gmail.com]
 🌐 [https://github.com/Chandinipriya6](https://github.com/Chandinipriya6)
 
 ````
-
----
-
-✅ Next Steps:
-1. Replace `[Your Email Address]` with your real email.  
-2. Save this as `README.md` in your project root.  
-3. Run:
-   ```bash
-   git add README.md
-   git commit -m "Added detailed project README for Zidio trial"
-   git push origin main
-````
-
-Would you like me to include **screenshots** or **preview GIFs** in the README (like login page, resume preview, etc.) to make your GitHub project even more impressive for Zidio?
