@@ -135,4 +135,27 @@ This project was developed as part of the **Zidio Development Trial Task** to de
 📧 [chandinipriya643@gmail.com]
 🌐 [https://github.com/Chandinipriya6](https://github.com/Chandinipriya6)
 
-````
+## Output screens
+<img width="1859" height="913" alt="image" src="https://github.com/user-attachments/assets/e733410a-2325-4f46-91e0-b5c9c1b52bab" />
+<img width="1851" height="907" alt="image" src="https://github.com/user-attachments/assets/93890d66-fb7e-48f4-a026-d969104c31fa" />
+
+<img width="1850" height="910" alt="image" src="https://github.com/user-attachments/assets/1b090bdb-9b9a-4d8e-b69c-c06d304a67d8" />
+
+<img width="1850" height="897" alt="image" src="https://github.com/user-attachments/assets/4356cc22-9152-4b16-9a32-3d84e5d54285" />
+
+<img width="1858" height="912" alt="image" src="https://github.com/user-attachments/assets/d7261679-3e8c-4611-a935-d4ede1b73ef3" />
+
+<img width="1859" height="953" alt="image" src="https://github.com/user-attachments/assets/3f804966-edba-46cd-b5b4-e7ee04f5b137" />
+
+<img width="1854" height="905" alt="image" src="https://github.com/user-attachments/assets/a118068b-25e1-480a-bb28-a370a79b5393" />
+
+<img width="1867" height="908" alt="image" src="https://github.com/user-attachments/assets/75cc2d6d-ac67-4282-909c-8b13a0cb6ac5" />
+
+<img width="1854" height="909" alt="image" src="https://github.com/user-attachments/assets/95115eb1-4828-429c-8285-27991c2cd977" />
+
+
+
+
+
+
+
