@@ -1,3 +1,10 @@
+Perfect 👍 — since your **Resume Builder** project uses **Supabase** (not MongoDB), we’ll update your README to correctly reflect that.
+
+Here’s the corrected and complete version 👇
+
+---
+
+````markdown
 # 📄 Resume Builder App — Zidio Trial Task
 
 ## 🚀 Project Overview
@@ -57,66 +64,107 @@ The main goal was to create a **secure and flexible platform** that:
    ```bash
    git clone https://github.com/Chandinipriya6/zidio-trial-task.git
    cd zidio-trial-task
-Install dependencies
+````
 
-bash
-Copy code
-cd backend && npm install
-cd ../frontend && npm install
-Create a .env file in the backend directory:
+2. **Install dependencies**
 
+   ```bash
+   cd backend && npm install
+   cd ../frontend && npm install
+   ```
 
-Run the app
+3. **Create a `.env` file** in the backend directory:
 
-bash
-Copy code
-# Start backend
-cd backend
-npm start
+   ```bash
+   SUPABASE_URL=your_supabase_project_url
+   SUPABASE_ANON_KEY=your_supabase_anon_key
+   SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
+   GEMINI_API_KEY=your_gemini_api_key
+   BACKEND_URL=http://localhost:5000
+   SUPABASE_TEMPLATE_URL=https://your-supabase-template-bucket-url/
+   ```
 
-# Start frontend (in another terminal)
-cd ../frontend
-npm start
-Access the app
-Open your browser and go to:
+4. **Run the app**
 
-arduino
-Copy code
-http://localhost:3000
-🧩 Database Schema (Supabase)
-Table: resumes
+   ```bash
+   # Start backend
+   cd backend
+   npm start
 
-Column Name	Type	Description
-id	UUID (PK)	Unique resume ID
-user_id	UUID (FK)	Linked to Supabase Auth users
-name	Text	User’s full name
-email	Text	User’s email
-summary	Text	Short profile summary
-education	JSONB	Array of education entries
-experience	JSONB	Array of work experiences
-skills	JSONB	List of user skills
-custom_sections	JSONB	Extra sections (optional)
-template_url	Text	Link to selected template HTML
-created_at	Timestamp	Created date
+   # Start frontend (in another terminal)
+   cd ../frontend
+   npm start
+   ```
 
-🔍 What I Would Improve
+5. **Access the app**
+   Open your browser and go to:
+
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+## 🧩 Database Schema (Supabase)
+
+**Table: `resumes`**
+
+| Column Name     | Type      | Description                    |
+| --------------- | --------- | ------------------------------ |
+| id              | UUID (PK) | Unique resume ID               |
+| user_id         | UUID (FK) | Linked to Supabase Auth users  |
+| name            | Text      | User’s full name               |
+| email           | Text      | User’s email                   |
+| summary         | Text      | Short profile summary          |
+| education       | JSONB     | Array of education entries     |
+| experience      | JSONB     | Array of work experiences      |
+| skills          | JSONB     | List of user skills            |
+| custom_sections | JSONB     | Extra sections (optional)      |
+| template_url    | Text      | Link to selected template HTML |
+| created_at      | Timestamp | Created date                   |
+
+---
+
+## 🔍 What I Would Improve
+
 If given more time, I would:
 
-Add AI-based resume optimization using Gemini API.
+* Add **AI-based resume optimization** using Gemini API.
+* Implement **custom template builder** for more personalization.
+* Integrate **analytics** (views/downloads per resume).
+* Add **public sharing links** with access controls.
 
-Implement custom template builder for more personalization.
+---
 
-Integrate analytics (views/downloads per resume).
+## 📨 Zidio Submission Note
 
-Add public sharing links with access controls.
+This project was developed as part of the **Zidio Development Trial Task** to demonstrate skills in:
 
-📨 Zidio Submission Note
-This project was developed as part of the Zidio Development Trial Task to demonstrate skills in:
+* Full-stack web development (React + Node + Supabase)
+* Authentication and email verification
+* Dynamic data rendering and PDF generation
+* Clean and responsive frontend design
 
-Full-stack web development (React + Node + Supabase)
+---
 
-Authentication and email verification
+## 👩‍💻 Author
 
-Dynamic data rendering and PDF generation
+**Pasagada Chandini Priya**
+📧 [Your Email Address]
+🌐 [https://github.com/Chandinipriya6](https://github.com/Chandinipriya6)
 
-Clean and responsive frontend design
+````
+
+---
+
+✅ Next Steps:
+1. Replace `[Your Email Address]` with your real email.  
+2. Save this as `README.md` in your project root.  
+3. Run:
+   ```bash
+   git add README.md
+   git commit -m "Added detailed project README for Zidio trial"
+   git push origin main
+````
+
+Would you like me to include **screenshots** or **preview GIFs** in the README (like login page, resume preview, etc.) to make your GitHub project even more impressive for Zidio?
